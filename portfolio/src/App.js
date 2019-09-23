@@ -11,7 +11,7 @@ const App = () => {
   return (
     <div>
       <Navbar logoTitle="Lorant Csuhai" />
-      <Router>
+      <Router primary={false}>
         <Home path="/" />
         <Projects path="/projects" />
         <UpcomingProjects path="/upcomingprojects" />
