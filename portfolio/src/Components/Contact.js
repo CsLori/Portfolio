@@ -15,7 +15,9 @@ const Contact = () => {
           </div>
           <div>
             <hr className="light-100" />
-            <h5>lori.com</h5>
+            <a href="https://github.com/CsLori">
+              <h4>GitHub</h4>
+            </a>
           </div>
         </div>
       </div>

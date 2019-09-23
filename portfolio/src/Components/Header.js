@@ -14,7 +14,7 @@ class Header extends Component {
       <header style={styles}>
         <h1>{this.props.title}</h1>
 
-        <Link to="/projects">
+        <Link to="/upcomingprojects">
           <button>{this.props.button}</button>
         </Link>
       </header>
